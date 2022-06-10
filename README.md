@@ -24,6 +24,7 @@ conda install -c conda-forge scikit-learn=0.23.0 -y
 pip install randaugment==1.0.2
 pip install easydict==1.9
 conda install -c pytorch faiss-gpu=1.7.0 -y
+pip install matplotlib
 ~~~~
 
 ## Dataset
