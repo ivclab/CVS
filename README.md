@@ -33,6 +33,8 @@ Please save datasets in `dataset` folder. Each dataset format is the same as [Ra
 
 1. Unzip the [CIFAR100](https://github.com/hwany-j/cifar100_png) and rename the extracted folder to `cifar100`
 2. Unzip the [Tiny ImageNet](http://cs231n.stanford.edu/tiny-imagenet-200.zip) and run `dataset/build_tinyimagenet.py` to convert the format. Then, put train-val-test files([here](https://drive.google.com/drive/folders/1CpbWbynZXZMOxV6gcedeJYKPp8aLn1xS?usp=sharing)) into `collections`.
+3. Unzip the [Product-10K dataset (train.zip)](https://onedrive.live.com/?cid=1bfdba15301520ef&id=1BFDBA15301520EF%211598&authkey=!ABwlxkUe6Gyxh4s) and put train-val-test files([here](https://drive.google.com/drive/folders/1CpbWbynZXZMOxV6gcedeJYKPp8aLn1xS?usp=sharing)) into `collections`. Then, run `dataset/build_productm.py` to generate the Proudct-M.
+4. For Stanford Dog and iNat-M, please download the files ([Stanford Dog](http://vision.stanford.edu/aditya86/ImageNetDogs/images.tar) / [iNatualist 2017](https://github.com/visipedia/inat_comp/tree/master/2017)). You can generate the same setting as the paper mentioned with slightly modification to `dataset/build_productm.py`.
 
 
 ## Train
