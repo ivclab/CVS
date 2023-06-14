@@ -4,7 +4,7 @@ PyTorch implementation for CVS (CVPR 2022).
 
 Timmy S. T. Wan, Jun-Cheng Chen, Tzer-Yi Wu, Chu-Song Chen
 
-[[Paper](https://arxiv.org/abs/2205.13384)]
+[[Paper](https://arxiv.org/abs/2205.13384)] [[Video](https://youtu.be/7k15auuBlUA)]
 
 ## Abstract
 
@@ -98,3 +98,19 @@ bash scripts/cifar.sh -s blurry10 -m lwf # For cifar100
 ## Test
 
 Download the checkpoint folder [here](https://drive.google.com/drive/folders/1wroCN-cxKSQ2zei7IX0RgC8y-REZ2PT2?usp=sharing) and put it in the same path as `test.py`. Then run `bash test_CVS.sh`.
+
+
+## Citation
+
+If you think this implementation is useful for your work, please cite our paper:
+
+```
+@InProceedings{Wan_2022_CVPR,
+    author    = {Wan, Timmy S. T. and Chen, Jun-Cheng and Wu, Tzer-Yi and Chen, Chu-Song},
+    title     = {Continual Learning for Visual Search With Backward Consistent Feature Embedding},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {16702-16711}
+}
+```
